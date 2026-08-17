@@ -42,7 +42,7 @@ const processSteps = [
 export default function PracticeAreasPage() {
   return (
     <>
-      <section className="bg-background py-14 md:py-20">
+      <section className="bg-background py-10 sm:py-14 md:py-20">
         <div className="container-custom">
           <nav className="text-sm text-muted" aria-label="Breadcrumb">
             <Link href="/" className="transition-colors hover:text-accent">
@@ -51,10 +51,10 @@ export default function PracticeAreasPage() {
             <span className="mx-2">/</span>
             <span className="text-primary">Practice Areas</span>
           </nav>
-          <h1 className="mt-4 text-4xl font-bold sm:text-5xl">
+          <h1 className="mt-4 text-3xl font-bold sm:text-4xl md:text-5xl">
             Practice Areas
           </h1>
-          <p className="mt-4 max-w-2xl text-lg text-muted">
+          <p className="mt-4 max-w-2xl text-base text-muted sm:text-lg">
             {site.name} handles a wide range of matters across all types of
             cases — bringing the same preparation and attention to each one,
             whether it is a court dispute or a single document.
@@ -102,7 +102,9 @@ export default function PracticeAreasPage() {
             <p className="text-sm font-semibold uppercase tracking-widest text-accent">
               The Process
             </p>
-            <h2 className="mt-4 text-3xl font-bold sm:text-4xl">How I Work</h2>
+            <h2 className="mt-4 text-2xl font-bold sm:text-3xl md:text-4xl">
+              How I Work
+            </h2>
             <p className="mt-4 text-muted">
               Every matter follows a clear, structured path — so you always know
               what happens next.

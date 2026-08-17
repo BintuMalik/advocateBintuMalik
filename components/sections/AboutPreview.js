@@ -34,10 +34,10 @@ export default function AboutPreview() {
           <p className="text-sm font-semibold uppercase tracking-widest text-accent">
             About
           </p>
-          <h2 className="mt-4 text-3xl font-bold sm:text-4xl">
+          <h2 className="mt-4 text-2xl font-bold sm:text-3xl md:text-4xl">
             Committed to Your Rights, Case After Case
           </h2>
-          <p className="mt-6 text-muted">
+          <p className="mt-5 text-muted sm:mt-6">
             {site.name} has spent over {site.experienceYears} years representing
             clients across a full range of legal matters — from criminal defence
             and civil disputes to family, property, and business law. Every

@@ -18,7 +18,9 @@ export default function ReportAbusePage() {
           <span className="mx-2">/</span>
           <span className="text-primary">Report Abuse</span>
         </nav>
-        <h1 className="mt-4 text-4xl font-bold sm:text-5xl">Report Abuse</h1>
+        <h1 className="mt-4 text-3xl font-bold sm:text-4xl md:text-5xl">
+          Report Abuse
+        </h1>
         <p className="mt-6 text-muted">
           If you come across any misuse or impersonation of this website, please
           report it to us at{" "}

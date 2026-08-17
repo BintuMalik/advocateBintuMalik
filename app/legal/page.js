@@ -17,7 +17,7 @@ export default function LegalPage() {
           <span className="mx-2">/</span>
           <span className="text-primary">Legal</span>
         </nav>
-        <h1 className="mt-4 text-4xl font-bold sm:text-5xl">Legal</h1>
+        <h1 className="mt-4 text-3xl font-bold sm:text-4xl md:text-5xl">Legal</h1>
         <p className="mt-6 text-muted">
           This website is provided for general information only and does not
           constitute legal advice. Viewing this website, or contacting us

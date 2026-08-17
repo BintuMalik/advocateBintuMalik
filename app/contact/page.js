@@ -20,7 +20,7 @@ export default function ContactPage() {
 
   return (
     <>
-      <section className="bg-background py-14 md:py-20">
+      <section className="bg-background py-10 sm:py-14 md:py-20">
         <div className="container-custom">
           <nav className="text-sm text-muted" aria-label="Breadcrumb">
             <Link href="/" className="transition-colors hover:text-accent">
@@ -29,8 +29,10 @@ export default function ContactPage() {
             <span className="mx-2">/</span>
             <span className="text-primary">Contact</span>
           </nav>
-          <h1 className="mt-4 text-4xl font-bold sm:text-5xl">Contact</h1>
-          <p className="mt-4 max-w-2xl text-lg text-muted">
+          <h1 className="mt-4 text-3xl font-bold sm:text-4xl md:text-5xl">
+            Contact
+          </h1>
+          <p className="mt-4 max-w-2xl text-base text-muted sm:text-lg">
             Share a few details about your matter and the office will get back
             to you — or reach out directly by phone or WhatsApp.
           </p>
@@ -50,7 +52,7 @@ export default function ContactPage() {
           </div>
 
           <div>
-            <div className="rounded-2xl bg-primary p-8 text-gray-200 shadow-lg">
+            <div className="rounded-2xl bg-primary p-6 text-gray-200 shadow-lg sm:p-8">
               <h2 className="font-heading text-2xl font-bold text-white">
                 Contact Information
               </h2>

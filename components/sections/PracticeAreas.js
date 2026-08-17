@@ -10,7 +10,7 @@ export default function PracticeAreas() {
           <p className="text-sm font-semibold uppercase tracking-widest text-accent">
             What We Handle
           </p>
-          <h2 className="mt-4 text-3xl font-bold sm:text-4xl">
+          <h2 className="mt-4 text-2xl font-bold sm:text-3xl md:text-4xl">
             Practice Areas
           </h2>
           <p className="mt-4 text-muted">
@@ -19,7 +19,7 @@ export default function PracticeAreas() {
           </p>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid grid-cols-1 gap-6 sm:mt-12 sm:grid-cols-2 lg:grid-cols-4">
           {practiceAreas.map((area) => {
             const Icon = Icons[area.icon] ?? Icons.Scale;
             return (

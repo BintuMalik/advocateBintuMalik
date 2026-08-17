@@ -8,13 +8,13 @@ export default function OfficesPreview() {
   return (
     <section className="section-padding bg-background">
       <div className="container-custom">
-        <div className="rounded-2xl border border-gray-200 bg-white p-8 shadow-sm md:p-12">
+        <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm sm:p-8 md:p-12">
           <div className="flex flex-col items-center gap-8 lg:flex-row lg:justify-between">
             <div className="max-w-xl text-center lg:text-left">
-              <p className="text-sm font-semibold uppercase tracking-widest text-accent">
+              <p className="text-xs font-semibold uppercase tracking-widest text-accent sm:text-sm">
                 Our Offices
               </p>
-              <h2 className="mt-4 text-3xl font-bold sm:text-4xl">
+              <h2 className="mt-4 text-2xl font-bold sm:text-3xl md:text-4xl">
                 {offices.length} offices across the region
               </h2>
               <p className="mt-4 text-muted">
@@ -34,8 +34,11 @@ export default function OfficesPreview() {
               </div>
             </div>
 
-            <div className="shrink-0">
-              <Link href="/offices" className="btn-primary">
+            <div className="w-full shrink-0 sm:w-auto">
+              <Link
+                href="/offices"
+                className="btn-primary w-full text-center sm:w-auto"
+              >
                 View All Locations
               </Link>
             </div>

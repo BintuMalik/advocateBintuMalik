@@ -75,7 +75,7 @@ export default function AboutPage() {
 
   return (
     <>
-      <section className="bg-background py-14 md:py-20">
+      <section className="bg-background py-10 sm:py-14 md:py-20">
         <div className="container-custom">
           <nav className="text-sm text-muted" aria-label="Breadcrumb">
             <Link href="/" className="transition-colors hover:text-accent">
@@ -84,10 +84,10 @@ export default function AboutPage() {
             <span className="mx-2">/</span>
             <span className="text-primary">About</span>
           </nav>
-          <h1 className="mt-4 text-4xl font-bold sm:text-5xl">
+          <h1 className="mt-4 text-3xl font-bold sm:text-4xl md:text-5xl">
             About {site.name}
           </h1>
-          <p className="mt-4 max-w-2xl text-lg text-muted">
+          <p className="mt-4 max-w-2xl text-base text-muted sm:text-lg">
             {site.tagline} — dependable representation and clear, honest counsel
             for every client.
           </p>
@@ -95,7 +95,7 @@ export default function AboutPage() {
       </section>
 
       <section className="section-padding bg-background">
-        <div className="container-custom grid items-start gap-12 lg:grid-cols-5">
+        <div className="container-custom grid items-start gap-10 lg:grid-cols-5 lg:gap-12">
           <div className="lg:col-span-2">
             {hasImage ? (
               <div className="relative aspect-[3/4] overflow-hidden rounded-2xl shadow-lg">
@@ -124,7 +124,7 @@ export default function AboutPage() {
             <p className="text-sm font-semibold uppercase tracking-widest text-accent">
               Background
             </p>
-            <h2 className="mt-4 text-3xl font-bold sm:text-4xl">
+            <h2 className="mt-4 text-2xl font-bold sm:text-3xl md:text-4xl">
               A Practice Grounded in Preparation and Trust
             </h2>
             <div className="mt-6 space-y-5 text-muted">
@@ -161,7 +161,7 @@ export default function AboutPage() {
             <p className="text-sm font-semibold uppercase tracking-widest text-accent">
               Credentials
             </p>
-            <h2 className="mt-4 text-3xl font-bold sm:text-4xl">
+            <h2 className="mt-4 text-2xl font-bold sm:text-3xl md:text-4xl">
               Qualifications at a Glance
             </h2>
           </div>
@@ -193,7 +193,7 @@ export default function AboutPage() {
             <p className="text-sm font-semibold uppercase tracking-widest text-accent">
               Values
             </p>
-            <h2 className="mt-4 text-3xl font-bold sm:text-4xl">
+            <h2 className="mt-4 text-2xl font-bold sm:text-3xl md:text-4xl">
               What Guides the Practice
             </h2>
           </div>

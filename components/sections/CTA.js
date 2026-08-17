@@ -8,12 +8,14 @@ export default function CTA({
 }) {
   return (
     <section className="bg-primary">
-      <div className="container-custom flex flex-col items-center gap-6 py-16 text-center md:py-20">
-        <h2 className="text-3xl font-bold text-white sm:text-4xl">{heading}</h2>
+      <div className="container-custom flex flex-col items-center gap-6 py-12 text-center sm:py-16 md:py-20">
+        <h2 className="text-2xl font-bold text-white sm:text-3xl md:text-4xl">
+          {heading}
+        </h2>
         <p className="max-w-xl text-gray-300">{subtext}</p>
         <Link
           href={buttonHref}
-          className="inline-block rounded-md bg-accent px-8 py-3.5 text-sm font-semibold tracking-wide text-white transition-colors duration-200 hover:bg-accent-light focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary"
+          className="inline-block w-full max-w-xs rounded-md bg-accent px-8 py-3.5 text-center text-sm font-semibold tracking-wide text-white transition-colors duration-200 hover:bg-accent-light focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary sm:w-auto"
         >
           {buttonLabel}
         </Link>

@@ -32,12 +32,12 @@ export default function WhyChooseUs() {
           <p className="text-sm font-semibold uppercase tracking-widest text-accent">
             Why Choose Us
           </p>
-          <h2 className="mt-4 text-3xl font-bold sm:text-4xl">
+          <h2 className="mt-4 text-2xl font-bold sm:text-3xl md:text-4xl">
             A Practice Built on Trust
           </h2>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid grid-cols-1 gap-8 sm:mt-12 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
           {reasons.map((reason) => (
             <div key={reason.title} className="text-center">
               <span className="inline-flex rounded-full bg-white p-4 text-accent shadow-sm">

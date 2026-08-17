@@ -12,7 +12,7 @@ export const metadata = {
 export default function FaqPage() {
   return (
     <>
-      <section className="bg-background py-14 md:py-20">
+      <section className="bg-background py-10 sm:py-14 md:py-20">
         <div className="container-custom">
           <nav className="text-sm text-muted" aria-label="Breadcrumb">
             <Link href="/" className="transition-colors hover:text-accent">
@@ -21,10 +21,10 @@ export default function FaqPage() {
             <span className="mx-2">/</span>
             <span className="text-primary">FAQ</span>
           </nav>
-          <h1 className="mt-4 text-4xl font-bold sm:text-5xl">
+          <h1 className="mt-4 text-3xl font-bold sm:text-4xl md:text-5xl">
             Frequently Asked Questions
           </h1>
-          <p className="mt-4 max-w-2xl text-lg text-muted">
+          <p className="mt-4 max-w-2xl text-base text-muted sm:text-lg">
             Answers to the questions clients ask most often — about
             consultations, fees, documents, and how cases proceed.
           </p>

@@ -13,7 +13,7 @@ const initialForm = {
 };
 
 const inputClasses =
-  "w-full rounded-md border border-gray-300 bg-white px-4 py-2.5 text-sm text-body placeholder:text-gray-400 transition-colors duration-200 focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/40";
+  "w-full rounded-md border border-gray-300 bg-white px-4 py-3 text-sm text-body placeholder:text-gray-400 transition-colors duration-200 focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/40";
 
 export default function ContactForm() {
   const [form, setForm] = useState(initialForm);

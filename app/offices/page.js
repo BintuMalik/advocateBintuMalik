@@ -15,7 +15,7 @@ export default function OfficesPage() {
 
   return (
     <>
-      <section className="bg-background py-14 md:py-20">
+      <section className="bg-background py-10 sm:py-14 md:py-20">
         <div className="container-custom">
           <nav className="text-sm text-muted" aria-label="Breadcrumb">
             <Link href="/" className="transition-colors hover:text-accent">
@@ -24,8 +24,10 @@ export default function OfficesPage() {
             <span className="mx-2">/</span>
             <span className="text-primary">Our Offices</span>
           </nav>
-          <h1 className="mt-4 text-4xl font-bold sm:text-5xl">Our Offices</h1>
-          <p className="mt-4 max-w-2xl text-lg text-muted">
+          <h1 className="mt-4 text-3xl font-bold sm:text-4xl md:text-5xl">
+            Our Offices
+          </h1>
+          <p className="mt-4 max-w-2xl text-base text-muted sm:text-lg">
             We serve clients across {offices.length} locations in {citiesLine}{" "}
             and nearby areas. Find the office closest to you and get directions.
           </p>

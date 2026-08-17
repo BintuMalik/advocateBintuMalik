@@ -11,24 +11,27 @@ export default function Hero() {
 
   return (
     <section className="section-padding bg-background">
-      <div className="container-custom grid items-center gap-12 lg:grid-cols-2">
+      <div className="container-custom grid items-center gap-8 lg:grid-cols-2 lg:gap-12">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-widest text-accent">
+          <p className="text-xs font-semibold uppercase tracking-widest text-accent sm:text-sm">
             {site.tagline}
           </p>
-          <h1 className="mt-4 text-4xl font-bold sm:text-5xl lg:text-[3.4rem]">
+          <h1 className="mt-4 text-3xl font-bold sm:text-4xl md:text-5xl lg:text-[3.4rem]">
             Trusted Legal Guidance for Every Case
           </h1>
-          <p className="mt-6 max-w-xl text-lg text-muted">
+          <p className="mt-5 max-w-xl text-base text-muted sm:mt-6 sm:text-lg">
             Dependable representation and honest counsel across criminal, civil,
             family, property, and business matters — from the first consultation
             to the final order.
           </p>
-          <div className="mt-8 flex flex-wrap gap-4">
-            <Link href="/contact" className="btn-primary">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
+            <Link href="/contact" className="btn-primary w-full text-center sm:w-auto">
               Book a Consultation
             </Link>
-            <Link href="/practice-areas" className="btn-outline">
+            <Link
+              href="/practice-areas"
+              className="btn-outline w-full text-center sm:w-auto"
+            >
               View Practice Areas
             </Link>
           </div>

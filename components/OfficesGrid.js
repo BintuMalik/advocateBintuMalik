@@ -30,7 +30,7 @@ export default function OfficesGrid() {
 
   return (
     <div>
-      <div className="flex flex-wrap justify-center gap-3">
+      <div className="flex flex-wrap justify-center gap-2.5 sm:gap-3">
         {tabs.map((city) => {
           const isActive = activeCity === city;
           return (
@@ -39,7 +39,7 @@ export default function OfficesGrid() {
               type="button"
               onClick={() => setActiveCity(city)}
               aria-pressed={isActive}
-              className={`rounded-full px-5 py-2 text-sm font-medium transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 ${
+              className={`whitespace-nowrap rounded-full px-4 py-2 text-sm font-medium transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 sm:px-5 ${
                 isActive
                   ? "bg-primary text-white"
                   : "border border-gray-300 bg-white text-body hover:border-accent hover:text-accent"
