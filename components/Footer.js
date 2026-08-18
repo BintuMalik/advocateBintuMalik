@@ -9,10 +9,16 @@ const quickLinks = [
   { href: "/offices", label: "Offices" },
 ];
 
+const reportAbuseHref = `mailto:${site.email}?subject=${encodeURIComponent(
+  "Report Abuse - Advocate Bintu Malik Website"
+)}&body=${encodeURIComponent(
+  "Please describe the issue you would like to report:"
+)}`;
+
 const trustLinks = [
   { href: "/security", label: "Security" },
   { href: "/legal", label: "Legal" },
-  { href: "/report-abuse", label: "Report Abuse" },
+  { href: reportAbuseHref, label: "Report Abuse", external: true },
 ];
 
 export default function Footer() {
@@ -57,13 +63,22 @@ export default function Footer() {
           </h3>
           <ul className="mt-4 space-y-2.5">
             {trustLinks.map((link) => (
-              <li key={link.href}>
-                <Link
-                  href={link.href}
-                  className="text-sm text-gray-300 transition-colors duration-200 hover:text-accent-light"
-                >
-                  {link.label}
-                </Link>
+              <li key={link.label}>
+                {link.external ? (
+                  <a
+                    href={link.href}
+                    className="text-sm text-gray-300 transition-colors duration-200 hover:text-accent-light"
+                  >
+                    {link.label}
+                  </a>
+                ) : (
+                  <Link
+                    href={link.href}
+                    className="text-sm text-gray-300 transition-colors duration-200 hover:text-accent-light"
+                  >
+                    {link.label}
+                  </Link>
+                )}
               </li>
             ))}
           </ul>
