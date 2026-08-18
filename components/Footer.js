@@ -7,7 +7,6 @@ const quickLinks = [
   { href: "/about", label: "About" },
   { href: "/practice-areas", label: "Practice Areas" },
   { href: "/offices", label: "Offices" },
-  { href: "/faq", label: "FAQ" },
 ];
 
 const trustLinks = [

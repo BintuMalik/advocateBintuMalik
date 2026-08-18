@@ -4,6 +4,7 @@ import AboutPreview from "@/components/sections/AboutPreview";
 import PracticeAreas from "@/components/sections/PracticeAreas";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import OfficesPreview from "@/components/sections/OfficesPreview";
+import FaqSection from "@/components/sections/FaqSection";
 import CTA from "@/components/sections/CTA";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <PracticeAreas />
       <WhyChooseUs />
       <OfficesPreview />
+      <FaqSection />
       <CTA />
     </>
   );
