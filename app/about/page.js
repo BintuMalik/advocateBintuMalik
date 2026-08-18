@@ -25,7 +25,7 @@ const credentials = [
   {
     icon: GraduationCap,
     title: "Education",
-    detail: "Bachelor of Laws (LL.B.) with continued professional study in current areas of practice.",
+    detail: "Bachelor of Laws (LL.B.) and Master of Laws (LL.M.), with continued professional study in current areas of practice.",
   },
   {
     icon: BadgeCheck,
